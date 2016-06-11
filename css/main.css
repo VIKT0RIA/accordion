@@ -1,0 +1,64 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	width: 500px;
+	margin: 0 auto; 
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.div-logo {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.logo {
+	margin: 20px 0;
+}
+.accordion-list {
+	margin-bottom: 5px;
+}
+.accordion-link {
+	display: inline-block;
+	width: 460px;
+	text-decoration: none;
+	background-color: #e7e7e7;
+	border-radius: 25px;
+	padding: 15px 20px;
+	font-weight: bold;
+	color: #4f4f4f;
+	background-image: url(../img/Polygon.png);
+	background-repeat: no-repeat;
+	background-position: 460px;
+}
+ul .accordion-list:nth-child(odd) a {
+	background-color: #696666;
+	color: #ffffff;
+}
+.accordion-list {
+	background: #e7e7e7;
+	border-radius: 25px;
+	color: #8c8c8c;
+}
+.accord-list {
+	padding: 10px 0 5px 20px;
+
+}
+.accord-item {
+	padding-bottom: 10px;
+}
+.active .accordion-link {
+	background-color: #ff8663 !important;
+	background-image: url(../img/Polygon1.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 460px !important;
+}
+.accord-list {
+	display: none;
+}
